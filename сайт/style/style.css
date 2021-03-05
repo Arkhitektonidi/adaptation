@@ -1,0 +1,395 @@
+*{
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+@font-face{
+	font-family:Segoe WP Light;
+    src: url("font\SegoeWPLight.ttf");
+}
+@font-face{
+	font-family:Open Sans Light;
+    src: url("font\OpenSansLight.ttf");
+}
+@font-face{
+	font-family:Segoe WP Black;
+    src: url("font\SegoeWPBlack.ttf");
+}
+.container{
+	width:1280px;
+	height:auto;
+	margin:auto;
+}
+
+.header{
+	background:white;
+	height:100px;
+}
+.log{
+	width:178px;
+	height:60px;
+	margin-left:10%;
+	margin-top:1.5%;
+	float:left;
+}
+.header ul{
+	display:flex;
+	float:right;
+	margin-right:10%;
+	margin-top:2%;
+}
+.header ul a{
+	color:gray;
+	font-size:150%;
+	border-right:1px solid gray;
+	padding-left:15px;
+	padding-right:15px;
+	text-decoration:none;
+}
+#cont{
+	border-right:0px;
+}
+.banner{
+	background:linear-gradient(135deg, #00727c, #11cfb5);
+	height:570px;
+}
+.krug{
+	width:452px;
+	height:452px;
+	float:left;
+	position:relative;
+	left:15%;
+	top:10%;
+}
+.phone{
+	width:226px;
+	height:446px;
+	float:left;
+	position:relative;
+	left:-12.5%;
+	top:10%;
+}
+.iphone{
+	position:relative;
+	top:10%;
+}
+.square{
+	display:flex;
+	float:right;
+}
+.square1{
+	width:119px;
+	height:123px;
+}
+.square2{
+	width:119px;
+	height:123px;
+}
+.square3{
+	width:119px;
+	height:135px;
+}
+.planet img{
+	width:55px;
+	height:55px;
+}
+.planet p{
+	margin-left:10px;
+	margin-top:10px;
+}
+.planet{
+	float:left;
+	color:white;
+	position:relative;
+	top:30%;
+	display:flex;
+	font-family:Segoe WP Light;
+}
+.myapps{
+	color:white;
+	font-size:150%;
+	position:relative;
+	top:25%;
+	float:left;
+	font-family:Segoe WP Light;
+}
+.myapps h2{
+	display:flex;
+}
+.telega img{
+	width:55px;
+	height:45px;	
+}
+.telega a{
+	font-size:150%;
+	background:#54d3c3;
+	padding-left:10px;
+	padding-top:10px;
+	padding-right:10px;
+	text-decoration:none;
+	color:white;
+}
+.telega{
+	float:left;
+	color:white;
+	display:flex;
+	position:relative;
+	top:45%;
+	right:30%;
+}
+.about{
+	color:gray;
+	text-align:center;
+	font-size:150%;
+	margin-top:50px;
+	background:white;
+	height:840px;
+}
+.about h2{
+	font-family:Segoe WP Light;;
+}
+.about p{
+	font-family:Open Sans Light;
+}
+.shape6{
+	margin-left:50px;
+	margin-top:50px;
+}
+.img-sec3{
+	display:flex;
+}
+.sec3{
+	background:linear-gradient(110deg, #01646c, #0aa397);
+	height:700px;
+}
+.nout{
+	width:;
+	height:;
+	margin-top:120px;
+	float:left;
+	position:relative;
+	left:170px;
+}
+.myapps2{
+	color:white;
+	font-size:150%;
+	position:relative;
+	top:27%;
+	left:15%;
+	float:left;
+	font-family:Segoe WP Light;
+}
+.myapps2 h2{
+	display:flex;
+}
+.telega2 img{
+	width:55px;
+	height:45px;	
+}
+.telega2 a{
+	font-size:150%;
+	background:#06ccb3;
+	padding-left:10px;
+	padding-top:10px;
+	padding-right:10px;
+	text-decoration:none;
+	color:white;
+}
+.telega2{
+	float:left;
+	color:white;
+	display:flex;
+	position:relative;
+	top:40%;
+	right:15%;
+}
+.sec4 img{
+	width:496px;
+	height:513px;
+	float:right;
+}
+.sec4 h2{
+	float:left;
+	color:#49d7b0;
+	font-size:450%;
+	position:relative;
+	left:10%;
+	font-family:Segoe WP Black;
+}
+.sec4 h2 p{
+	font-size:300%;
+}
+.sec4{
+	height:513px;
+}
+.footer{
+	height:100px;
+	background:white;
+	width:1280px;
+	color:gray;
+	font-size:150%;
+	border-top:1px solid gray;
+	font-family:Segoe WP Light;
+}
+.footer p{
+	position:relative;
+	top:40px;
+}
+@media(max-width:1280px){
+	.container{
+		width:1280px;
+		height:auto;
+		position:relative;
+	}
+}
+@media(max-width:1100px){
+	.header{
+		height:150px;
+	}
+	.log img{
+		width:267px;
+		height:90px;
+	}
+	.header ul{
+		position:relative;
+		top:10%;
+	}
+	.header ul a{
+		font-size:250%;
+	}
+}
+@media(max-width:1000px){
+	.header{
+		background:white;
+		height:250px;
+	}
+	.log img{
+		position:absolute;
+		left:40%;
+		width:267px;
+		height:90px;
+	}
+	.header ul{
+		position:absolute;
+		left:30%;
+		top:4%;
+	}
+	.header ul a{
+		font-size:250%;
+	}
+	.iphone{
+		position:relative;
+		top:10%;
+		right:10%;
+	}
+	.square1{
+		position: absolute;
+		right: 22%;
+		margin-top: 2%;
+	}
+	.square2{
+		position: absolute;
+		right: 12%;
+		margin-top: 2%;
+	}
+	.square3{
+		position: absolute;
+		right: 2%;
+		margin-top: 2%;
+	}
+	.planet{
+		position:relative;
+		right:10%;
+	}
+	.myapps{
+		position: absolute;
+		top: auto;
+		margin-top: 20%;
+		left: 43%;
+	}
+	.telega{
+		position: absolute;
+		top: auto;
+		margin-top: 30%;
+		right: 45%;
+	}
+	.about{
+		height:900px;
+		font-size:250%;
+	}
+	.sec3{
+		height: 1250px;
+	}
+	.minecraft1{
+		position: absolute;
+		margin-top: 3%;
+		right: 70%;
+	}
+	.minecraft2{
+		position: absolute;
+		margin-top: 3%;
+		left: 40%;
+	}
+	.minecraft3{
+		position: absolute;
+		margin-top: 3%;
+		left: 70%;
+	}
+	.minecraft4{
+		position: absolute;
+		margin-top: 23%;
+		right: 70%;
+	}
+	.minecraft5{
+		position: absolute;
+		margin-top: 23%;
+		left: 40%;
+	}
+	.minecraft6{
+		position: absolute;
+		margin-top: 23%;
+		left: 70%;
+	}
+	.nout{
+		position: absolute;
+		margin-top: 47%;
+		left: 28%;
+	}
+	.myapps2{
+		position: relative;
+		top: 80%;
+		left: 35%;
+	}
+	.telega2{
+		position:relative;
+		top:90%;
+		left:13%;
+	}
+	.minecraft1 img{
+		width:264px;
+		height:220px;
+	}
+	.minecraft2 img{
+		width:264px;
+		height:220px;
+	}
+	.minecraft3 img{
+		width:264px;
+		height:220px;
+	}
+	.minecraft4 img{
+		width:264px;
+		height:220px;
+	}
+	.minecraft5 img{
+		width:264px;
+		height:220px;
+	}
+	.minecraft6 img{
+		width:264px;
+		height:220px;
+	}
+	.footer{
+		font-size: 200%;
+	}
+}
